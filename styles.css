@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    --color-main: #253C78;
+    --color-secondary: #09BC8A;
+}
+
+html, body {
+    color: white;
+}
+
+main {
+    width: 100%;
+    background-color: var(--color-main);
+    height: 100dvh;
+    height: 100vh;
+    text-align: center;
+}
+
+.tasks {
+    font-size: 2rem;
+    height: 100%;
+}
+
+.tasks__task {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 8rem 1rem;
+}
+
+.tasks__task-name {
+    color: white;
+    font-size: 1em;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.tasks__task-count {
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
+.tasks__task-last {
+    margin-bottom: auto;
+    font-size: 0.6em;
+}
+
+.tasks__task-name:focus {
+    outline: none;
+}
+
+.tasks__task-increment {
+    font-size: 1em;
+    margin: 0 auto;
+    margin-top: auto;
+    padding: 0.5rem 4rem;
+    background-color: var(--color-secondary);
+    outline: 1px solid var(--color-secondary);
+    border: none;
+    color: white;
+}
+
+.tasks__task-increment:focus {
+    outline: none;
+}
