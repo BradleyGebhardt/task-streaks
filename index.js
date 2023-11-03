@@ -1,3 +1,8 @@
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+        .register("/serviceWorker.js")
+}
+
 // Fetch the tasks
 const storedTasks = window.localStorage.getItem('tasks');
 const tasks = storedTasks ? JSON.parse(storedTasks) : [];
