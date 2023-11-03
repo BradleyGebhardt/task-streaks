@@ -6,5 +6,10 @@
     "background_color": "#253C78",
     "theme_color": "#09BC8A",
     "orientation": "portrait-primary",
-    "icons": []
+    "icons": [
+        {
+            "src": "/images/clipboard.png",
+            "type": "image/png", "sizes": "144x144"
+        }
+    ]
 }
