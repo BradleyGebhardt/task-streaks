@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="manifest.json" />
-    <link rel="stylesheet" href="styles.css">
-    <script src="index.js" defer></script>
-    <title>Task Streak</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Streaks</title>
 </head>
+
 <body>
-    <main>
-        <section class="tasks">
-            <div class="tasks__task">
-                <input id="name" class="tasks__task-name" />
-
-                <div id="count" class="tasks__task-count"></div>
-                <div id="last" class="tasks__task-last"></div>
-
-                <button id="increment" class="tasks__task-increment">
-                    Log Streak
-                </button>
-            </div>
-        </section>
-    </main>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
 </body>
+
 </html>
